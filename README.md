@@ -17,24 +17,12 @@ Student.py
 ## Requirements
 
 - Python 3.x
-- 
-
-tkinter
-
- library (usually included with Python)
+- tkinter library (usually included with Python)
 
 ## Usage
 
-1. Ensure the CSV file (`SMTA022 Marks 2024 New update.csv`) is in the same directory as 
-
-Student.py
-
-.
-2. Run the 
-
-Student.py
-
- script:
+1. Ensure the CSV file (`SMTA022 Marks 2024 New update.csv`) is in the same directory as Student.py.
+2. Run the Student.py script:
 
 ```sh
 python Student.py
@@ -44,11 +32,7 @@ python Student.py
 
 ### Reading Student Marks
 
-The script reads student marks from the CSV file using the 
-
-read_student_marks
-
- function. It processes the following columns:
+The script reads student marks from the CSV file using the read_student_marks function. It processes the following columns:
 
 - `STUDENT NO.`
 - `T1`, `T2`, `T3` (Test marks)
@@ -56,11 +40,7 @@ read_student_marks
 
 ### Evaluating Students
 
-The 
-
-evaluate_students
-
- function categorizes students into three groups:
+The evaluate_students function categorizes students into three groups:
 
 - **Qualified Students**: Students who are qualified to write the exam.
 - **At Risk Students**: Students at risk of failing the exam.
@@ -68,15 +48,7 @@ evaluate_students
 
 ### Displaying Results
 
-The 
-
-display_results
-
- function uses 
-
-tkinter
-
- to display the results in a GUI with three tabs:
+The display_results function uses tkinter to display the results in a GUI with three tabs:
 
 - Qualified Students
 - At Risk Students
